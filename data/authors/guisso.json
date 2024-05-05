@@ -1,11 +1,11 @@
 {
-    "name": "Luiz",
+    "name": "Hackaponey (Guisso)",
     "image" : "https://avatars.githubusercontent.com/u/5755568?v=4",
-    "bio": "Sei não",
+    "bio": "Compartilhando e aprendendo, hack the planet!",
     "social": [
-        { "linkedin": "https://linkedin.com/in/guisso" },
-        { "twitter": "https://twitter.com/guisso" },
-        { "instagram": "https://instagram.com/guisso" },
-        { "github": "https://github.com/guisso" }
+        { "linkedin": "https://linkedin.com/in/fernandoguisso" },
+        { "instagram": "https://instagram.com/fguisso" },
+        { "github": "https://github.com/fguisso" },
+        { "mastodon": "https://bolha.us/@guisso" }
     ]
 }
