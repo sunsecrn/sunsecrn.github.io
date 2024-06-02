@@ -11,7 +11,7 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "about"
+  name = "About"
   pageRef = "about"
   weight = 10
 
@@ -21,36 +21,9 @@
   weight = 10
 
 # [[main]]
-#   name = "Parent"
-#   weight = 20
-
-# [[main]]
-#   name = "example sub-menu 1"
-#   parent = "Parent"
-#   pageRef = "posts"
-#   weight = 20
-
-# [[main]]
-#   name = "example sub-menu 2"
-#   parent = "Parent"
-#   pageRef = "posts"
-#   weight = 20
-
-# [[subnavigation]]
-#   name = "An interesting topic"
-#   pageRef = "tags/interesting-topic"
+#   name = "projects"
+#   pageRef = "projects"
 #   weight = 10
-
-# [[subnavigation]]
-#   name = "My Awesome Category"
-#   pre = "github"
-#   pageRef = "categories/awesome"
-#   weight = 20
-
-# [[main]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
 
 # [[main]]
 #   name = "Tags"
