@@ -8,16 +8,16 @@ title = "Sunsec"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/sunsec.png"
+  logo = "img/sunsec-sun.png"
   # secondaryLogo = "img/background.svg"
   # description = "My awesome website"
-  copyright = "© 2023 Sunsec. All Rights Reserved"
+  copyright = "© 2024 Sunsec. All Rights Reserved"
 
 [author]
   name = "Sunsec"
-  image = "https://avatars.githubusercontent.com/u/161634276?s=400&u=febd3d25a27d68a14d4e5dd88931e52728ebbcbf&v=4"
-  headline = "Comunidade de segurança da informação potiguar"
-  bio = "Comunidade de segurança da informação potiguar"
+  image = "img/sunsec.png"
+  headline = "Comunidade de segurança da informação potiguar."
+  bio = "Comunidade de segurança da informação potiguar."
   links = [
     { instagram = "https://www.instagram.com/sunsecrn/" },
     { discord = "https://discord.gg/WteNq4CvpP" },

@@ -1,0 +1,452 @@
+<svg height="100%" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 600 600">
+    <style>
+        svg {
+            --color-1: #d0d0d0;
+            --color-2: #bfbfbf;
+            --color-3: #6c6c6c;
+            --color-4: #969696;
+            --color-5: #636363;
+            --color-6: #303030;
+            --color-7: #464646;
+            --color-8: #e1e1e1;
+            --color-9: #5b5b5b;
+        }
+        </style>
+    <rect width="600" height="600" fill="transparent"/>
+    <mask id="mask" mask-type="alpha" maskUnits="userSpaceOnUse">
+        <rect transform="translate(0, 0)" width="600" height="600" fill="white"/>
+    </mask>
+    <svg>
+        <rect transform="translate(0, 0)" fill="var(--color-1)" width="60" height="60"/>
+        <rect transform="translate(0, 0)" fill="var(--color-2)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(0, 60)" fill="var(--color-2)" width="60" height="60"/>
+        <path transform="translate(0, 60) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-3)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(0, 120)" fill="var(--color-3)" width="60" height="60"/>
+        <rect transform="translate(0, 120)" fill="var(--color-4)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(0, 180)" fill="var(--color-1)" width="60" height="60"/>
+        <path transform="translate(0, 180) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-5)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(0, 180)" fill="var(--color-6)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(0, 240)" fill="var(--color-9)" width="60" height="60"/>
+        <path transform="translate(0, 240) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-2)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(0, 240)" fill="var(--color-1)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(0, 300)" fill="var(--color-1)" width="60" height="60"/>
+        <path transform="translate(0, 300) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-5)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(0, 360)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(0, 360) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(0, 360)" fill="var(--color-7)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(0, 420)" fill="var(--color-9)" width="60" height="60"/>
+        <path transform="translate(0, 420) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-3)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(0, 420)" fill="var(--color-4)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(0, 480)" fill="var(--color-1)" width="60" height="60"/>
+        <rect transform="translate(0, 480)" fill="var(--color-3)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(0, 540)" fill="var(--color-3)" width="60" height="60"/>
+        <path transform="translate(0, 540) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(0, 540)" fill="var(--color-4)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(60, 0)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(60, 0) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-7)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(60, 60)" fill="var(--color-4)" width="60" height="60"/>
+        <path transform="translate(60, 60) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(60, 60)" fill="var(--color-8)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(60, 120)" fill="var(--color-1)" width="60" height="60"/>
+        <path transform="translate(60, 120) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-2)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(60, 180)" fill="var(--color-7)" width="60" height="60"/>
+        <path transform="translate(60, 180) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-3)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(60, 240)" fill="var(--color-7)" width="60" height="60"/>
+        <path transform="translate(60, 240) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-9)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(60, 300)" fill="var(--color-9)" width="60" height="60"/>
+        <rect transform="translate(60, 300)" fill="var(--color-2)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(60, 360)" fill="var(--color-4)" width="60" height="60"/>
+        <path transform="translate(60, 360) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(60, 360)" fill="var(--color-2)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(60, 420)" fill="var(--color-8)" width="60" height="60"/>
+        <path transform="translate(60, 420) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-6)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(60, 480)" fill="var(--color-4)" width="60" height="60"/>
+        <path transform="translate(60, 480) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-7)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(60, 480)" fill="var(--color-9)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(60, 540)" fill="var(--color-4)" width="60" height="60"/>
+        <path transform="translate(60, 540) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-9)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(60, 540)" fill="var(--color-1)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(120, 0)" fill="var(--color-9)" width="60" height="60"/>
+        <path transform="translate(120, 0) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-3)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(120, 60)" fill="var(--color-2)" width="60" height="60"/>
+        <rect transform="translate(120, 60)" fill="var(--color-7)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(120, 120)" fill="var(--color-9)" width="60" height="60"/>
+        <path transform="translate(120, 120) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-3)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(120, 180)" fill="var(--color-2)" width="60" height="60"/>
+        <path transform="translate(120, 180) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-6)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(120, 240)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(120, 240) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(120, 300)" fill="var(--color-3)" width="60" height="60"/>
+        <rect transform="translate(120, 300)" fill="var(--color-7)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(120, 360)" fill="var(--color-3)" width="60" height="60"/>
+        <path transform="translate(120, 360) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-6)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(120, 420)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(120, 420) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-3)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(120, 480)" fill="var(--color-7)" width="60" height="60"/>
+        <path transform="translate(120, 480) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-4)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(120, 540)" fill="var(--color-6)" width="60" height="60"/>
+        <path transform="translate(120, 540) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-2)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(180, 0)" fill="var(--color-2)" width="60" height="60"/>
+        <path transform="translate(180, 0) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-7)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(180, 0)" fill="var(--color-4)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(180, 60)" fill="var(--color-6)" width="60" height="60"/>
+        <rect transform="translate(180, 60)" fill="var(--color-3)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(180, 120)" fill="var(--color-9)" width="60" height="60"/>
+        <rect transform="translate(180, 120)" fill="var(--color-2)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(180, 180)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(180, 180) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-9)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(180, 180)" fill="var(--color-2)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(180, 240)" fill="var(--color-1)" width="60" height="60"/>
+        <path transform="translate(180, 240) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-9)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(180, 300)" fill="var(--color-7)" width="60" height="60"/>
+        <rect transform="translate(180, 300)" fill="var(--color-3)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(180, 360)" fill="var(--color-3)" width="60" height="60"/>
+        <path transform="translate(180, 360) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-9)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(180, 360)" fill="var(--color-5)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(180, 420)" fill="var(--color-7)" width="60" height="60"/>
+        <path transform="translate(180, 420) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-4)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(180, 480)" fill="var(--color-4)" width="60" height="60"/>
+        <path transform="translate(180, 480) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(180, 480)" fill="var(--color-3)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(180, 540)" fill="var(--color-9)" width="60" height="60"/>
+        <path transform="translate(180, 540) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-3)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(240, 0)" fill="var(--color-1)" width="60" height="60"/>
+        <path transform="translate(240, 0) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-8)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(240, 60)" fill="var(--color-4)" width="60" height="60"/>
+        <path transform="translate(240, 60) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-6)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(240, 120)" fill="var(--color-8)" width="60" height="60"/>
+        <path transform="translate(240, 120) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-2)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(240, 120)" fill="var(--color-4)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(240, 180)" fill="var(--color-4)" width="60" height="60"/>
+        <path transform="translate(240, 180) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-6)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(240, 180)" fill="var(--color-3)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(240, 240)" fill="var(--color-4)" width="60" height="60"/>
+        <rect transform="translate(240, 240)" fill="var(--color-3)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(240, 300)" fill="var(--color-7)" width="60" height="60"/>
+        <path transform="translate(240, 300) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-2)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(240, 300)" fill="var(--color-9)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(240, 360)" fill="var(--color-4)" width="60" height="60"/>
+        <path transform="translate(240, 360) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-8)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(240, 420)" fill="var(--color-2)" width="60" height="60"/>
+        <path transform="translate(240, 420) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(240, 420)" fill="var(--color-3)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(240, 480)" fill="var(--color-6)" width="60" height="60"/>
+        <rect transform="translate(240, 480)" fill="var(--color-5)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(240, 540)" fill="var(--color-1)" width="60" height="60"/>
+        <rect transform="translate(240, 540)" fill="var(--color-2)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(300, 0)" fill="var(--color-5)" width="60" height="60"/>
+        <rect transform="translate(300, 0)" fill="var(--color-3)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(300, 60)" fill="var(--color-7)" width="60" height="60"/>
+        <path transform="translate(300, 60) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-6)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(300, 60)" fill="var(--color-3)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(300, 120)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(300, 120) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-3)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(300, 180)" fill="var(--color-6)" width="60" height="60"/>
+        <path transform="translate(300, 180) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-5)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(300, 180)" fill="var(--color-2)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(300, 240)" fill="var(--color-1)" width="60" height="60"/>
+        <path transform="translate(300, 240) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-7)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(300, 300)" fill="var(--color-6)" width="60" height="60"/>
+        <path transform="translate(300, 300) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-3)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(300, 300)" fill="var(--color-5)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(300, 360)" fill="var(--color-8)" width="60" height="60"/>
+        <path transform="translate(300, 360) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-7)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(300, 360)" fill="var(--color-1)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(300, 420)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(300, 420) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(300, 480)" fill="var(--color-3)" width="60" height="60"/>
+        <rect transform="translate(300, 480)" fill="var(--color-4)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(300, 540)" fill="var(--color-4)" width="60" height="60"/>
+        <path transform="translate(300, 540) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(360, 0)" fill="var(--color-6)" width="60" height="60"/>
+        <path transform="translate(360, 0) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-7)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(360, 0)" fill="var(--color-2)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(360, 60)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(360, 60) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-3)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(360, 120)" fill="var(--color-9)" width="60" height="60"/>
+        <path transform="translate(360, 120) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-3)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(360, 180)" fill="var(--color-3)" width="60" height="60"/>
+        <path transform="translate(360, 180) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-4)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(360, 180)" fill="var(--color-1)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(360, 240)" fill="var(--color-2)" width="60" height="60"/>
+        <path transform="translate(360, 240) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-9)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(360, 300)" fill="var(--color-9)" width="60" height="60"/>
+        <path transform="translate(360, 300) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-6)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(360, 300)" fill="var(--color-3)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(360, 360)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(360, 360) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-2)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(360, 420)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(360, 420) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-2)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(360, 480)" fill="var(--color-9)" width="60" height="60"/>
+        <rect transform="translate(360, 480)" fill="var(--color-7)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(360, 540)" fill="var(--color-1)" width="60" height="60"/>
+        <path transform="translate(360, 540) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-2)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(420, 0)" fill="var(--color-3)" width="60" height="60"/>
+        <path transform="translate(420, 0) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-4)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(420, 60)" fill="var(--color-1)" width="60" height="60"/>
+        <path transform="translate(420, 60) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-5)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(420, 120)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(420, 120) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-4)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(420, 120)" fill="var(--color-3)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(420, 180)" fill="var(--color-3)" width="60" height="60"/>
+        <rect transform="translate(420, 180)" fill="var(--color-1)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(420, 240)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(420, 240) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-2)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(420, 300)" fill="var(--color-8)" width="60" height="60"/>
+        <path transform="translate(420, 300) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-2)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(420, 300)" fill="var(--color-7)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(420, 360)" fill="var(--color-4)" width="60" height="60"/>
+        <path transform="translate(420, 360) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-6)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(420, 420)" fill="var(--color-7)" width="60" height="60"/>
+        <path transform="translate(420, 420) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(420, 480)" fill="var(--color-3)" width="60" height="60"/>
+        <path transform="translate(420, 480) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-8)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(420, 480)" fill="var(--color-7)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(420, 540)" fill="var(--color-4)" width="60" height="60"/>
+        <path transform="translate(420, 540) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-8)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(420, 540)" fill="var(--color-5)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(480, 0)" fill="var(--color-8)" width="60" height="60"/>
+        <path transform="translate(480, 0) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(480, 0)" fill="var(--color-5)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(480, 60)" fill="var(--color-1)" width="60" height="60"/>
+        <path transform="translate(480, 60) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-2)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(480, 120)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(480, 120) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-7)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(480, 120)" fill="var(--color-4)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(480, 180)" fill="var(--color-7)" width="60" height="60"/>
+        <rect transform="translate(480, 180)" fill="var(--color-2)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(480, 240)" fill="var(--color-3)" width="60" height="60"/>
+        <path transform="translate(480, 240) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-8)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(480, 300)" fill="var(--color-2)" width="60" height="60"/>
+        <path transform="translate(480, 300) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-7)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(480, 360)" fill="var(--color-4)" width="60" height="60"/>
+        <rect transform="translate(480, 360)" fill="var(--color-5)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(480, 420)" fill="var(--color-8)" width="60" height="60"/>
+        <path transform="translate(480, 420) translate(30,30) rotate(0) translate(-30,-30)" fill="var(--color-2)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(480, 420)" fill="var(--color-7)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(480, 480)" fill="var(--color-5)" width="60" height="60"/>
+        <rect transform="translate(480, 480)" fill="var(--color-1)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(480, 540)" fill="var(--color-9)" width="60" height="60"/>
+        <rect transform="translate(480, 540)" fill="var(--color-3)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(540, 0)" fill="var(--color-5)" width="60" height="60"/>
+        <path transform="translate(540, 0) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(540, 60)" fill="var(--color-6)" width="60" height="60"/>
+        <path transform="translate(540, 60) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-1)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(540, 60)" fill="var(--color-9)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(540, 120)" fill="var(--color-2)" width="60" height="60"/>
+        <rect transform="translate(540, 120)" fill="var(--color-4)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(540, 180)" fill="var(--color-1)" width="60" height="60"/>
+        <rect transform="translate(540, 180)" fill="var(--color-5)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(540, 240)" fill="var(--color-6)" width="60" height="60"/>
+        <path transform="translate(540, 240) translate(30,30) rotate(270) translate(-30,-30)" fill="var(--color-5)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(540, 300)" fill="var(--color-3)" width="60" height="60"/>
+        <rect transform="translate(540, 300)" fill="var(--color-9)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(540, 360)" fill="var(--color-6)" width="60" height="60"/>
+        <path transform="translate(540, 360) translate(30,30) rotate(90) translate(-30,-30)" fill="var(--color-8)" d="M60 0H0v60L60 0z"/>
+        <rect transform="translate(540, 360)" fill="var(--color-2)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(540, 420)" fill="var(--color-1)" width="60" height="60"/>
+        <path transform="translate(540, 420) translate(30,30) rotate(180) translate(-30,-30)" fill="var(--color-5)" d="M60 0H0v60L60 0z"/>
+    </svg>
+    <svg>
+        <rect transform="translate(540, 480)" fill="var(--color-9)" width="60" height="60"/>
+        <rect transform="translate(540, 480)" fill="var(--color-1)" x="15" y="15" width="30" height="30"/>
+    </svg>
+    <svg>
+        <rect transform="translate(540, 540)" fill="var(--color-4)" width="60" height="60"/>
+        <rect transform="translate(540, 540)" fill="var(--color-9)" x="15" y="15" width="30" height="30"/>
+    </svg>
+</svg>
