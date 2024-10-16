@@ -4,7 +4,7 @@
 
  theme = "blowfish"
 # baseURL = "https://your_domain.com/"
-defaultContentLanguage = "en"
+defaultContentLanguage = "pt-br"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
@@ -14,6 +14,8 @@ summaryLength = 0
 
 buildDrafts = false
 buildFuture = false
+
+enableEmoji = true
 
 # googleAnalytics = "G-XXXXXXXXX"
 

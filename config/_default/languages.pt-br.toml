@@ -1,22 +1,22 @@
-languageCode = "en"
-languageName = "English"
+languageCode = "pt-br"
+languageName = "Portugues"
 weight = 1
 title = "Sunsec"
 
 [params]
-  displayName = "English"
-  isoCode = "en"
+  displayName = "Português"
+  isoCode = "pt-br"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "Sunsec"
-  # secondaryLogo = "img/background.svg"
+  logo = "img/sunsec-sun.png"
+  secondaryLogo = "Sunsec"
   # description = "My awesome website"
   copyright = "© 2024 Sunsec. All Rights Reserved"
 
 [author]
   name = "Sunsec"
   image = "img/sunsec-sun.png"
-  headline = "Potiguar by origin, uniting minds to solve security challenges"
+  headline = "Potiguar por origem, unindo mentes resolvendo desafios de segurança"
   bio = ""
   links = [
     { instagram = "https://www.instagram.com/sunsecrn/" },
