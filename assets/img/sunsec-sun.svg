@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="320px" height="320px"
+    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+    viewBox="146.288 80.147 152.492 157.782" xmlns:bx="https://boxy-svg.com"
+    preserveAspectRatio="none">
+    <defs>
+        <bx:export>
+            <bx:file format="svg" href="#object-0" />
+            <bx:file format="svg" href="#object-1" path="Untitled 2.svg" />
+            <bx:file format="svg" href="#object-2" path="Untitled 3.svg" />
+            <bx:file format="svg" href="#object-3" path="Untitled 4.svg" />
+            <bx:file format="svg" href="#object-4" path="Untitled 5.svg" />
+            <bx:file format="svg" href="#object-5" path="Untitled 6.svg" />
+            <bx:file format="svg" href="#object-6" path="Untitled 7.svg" />
+            <bx:file format="svg" href="#object-7" path="Untitled 8.svg" />
+            <bx:file format="svg" href="#object-8" path="Untitled 9.svg" />
+            <bx:file format="svg" href="#object-9" path="Untitled 10.svg" />
+            <bx:file format="svg" href="#object-10" path="Untitled 11.svg" />
+            <bx:file format="svg" href="#object-11" path="Untitled 12.svg" />
+            <bx:file format="svg" href="#object-12" path="Untitled 13.svg" />
+            <bx:file format="svg" href="#object-13" path="Untitled 14.svg" />
+            <bx:file format="svg" path="Untitled 15.svg" />
+        </bx:export>
+        <style>
+
+            path:is(.dark *){fill: rgb(255, 246, 229)}
+            path{fill: rgb(126, 91, 27);}
+            /* Keyframes for rotation */
+    @keyframes rotate-around-center {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Rotate the group around object-0 */
+    #rotating-group {
+      animation: rotate-around-center 5s linear infinite;
+      transform-origin: 222px 161px; /* Coordinates of object-0 */
+    }
+          </style>
+    </defs>
+    <g id="rotating-group">
+    <path style="paint-order: fill; stroke: rgba(0, 0, 0, 0);"
+        d="M 229.364 98.451 C 229.364 98.451 261.828 94.207 273.2 109.548 C 284.572 124.889 290.03 139.942 285.707 140.612 C 281.384 141.282 269.483 117.279 264.85 112.66 C 264.85 112.66 254.17 102.594 229.364 98.451 Z"
+        id="object-13" />
+    <path
+        style="paint-order: fill; stroke: rgba(0, 0, 0, 0); transform-box: fill-box; transform-origin: 50% 50%;"
+        d="M 185.769 194.595 C 185.769 194.595 218.233 190.351 229.605 205.692 C 240.977 221.033 246.435 236.086 242.112 236.756 C 237.789 237.426 225.888 213.423 221.255 208.804 C 221.255 208.804 210.575 198.738 185.769 194.595 Z"
+        transform="matrix(-0.844656, 0.53531, -0.53531, -0.844656, 0.000005, -0.000025)"
+        id="object-12" />
+    <path
+        style="paint-order: fill; stroke: rgba(0, 0, 0, 0); transform-origin: 184.81px 187.899px;"
+        d="M 155.9 167.081 C 155.9 167.081 188.364 162.837 199.736 178.178 C 211.108 193.519 216.566 208.571 212.243 209.241 C 207.92 209.911 196.019 185.909 191.386 181.29 C 191.386 181.29 180.706 171.224 155.9 167.081 Z"
+        transform="matrix(-0.976275, -0.216533, 0.216533, -0.976275, 0.000011, 0.000001)"
+        id="object-11" />
+    <path
+        style="paint-order: fill; stroke: rgba(0, 0, 0, 0); transform-origin: 188.857px 138.386px;"
+        d="M 159.947 117.568 C 159.947 117.568 192.411 113.324 203.783 128.665 C 215.155 144.006 220.613 159.058 216.29 159.728 C 211.967 160.398 200.066 136.396 195.433 131.777 C 195.433 131.777 184.753 121.711 159.947 117.568 Z"
+        transform="matrix(-0.131282, -0.991345, 0.991345, -0.131282, 0.000011, 0.000009)"
+        id="object-10" />
+    <path
+        style="paint-order: fill; stroke: rgba(0, 0, 0, 0); transform-box: fill-box; transform-origin: 50% 50%;"
+        d="M 219.291 108.385 C 219.291 108.385 235.789 106.513 241.568 113.281 C 247.347 120.048 250.12 126.688 247.923 126.984 C 245.726 127.279 239.679 116.691 237.324 114.653 C 237.324 114.653 231.897 110.213 219.291 108.385 Z"
+        transform="matrix(0.936098, -0.351738, 0.351738, 0.936098, 0, 0)" id="object-9" />
+    <path
+        style="paint-order: fill; stroke: rgba(0, 0, 0, 0); transform-origin: 265.716px 148.408px;"
+        d="M 251.023 139.224 C 251.023 139.224 267.521 137.352 273.3 144.12 C 279.079 150.887 281.852 157.527 279.655 157.823 C 277.458 158.118 271.411 147.53 269.056 145.492 C 269.056 145.492 263.629 141.052 251.023 139.224 Z"
+        transform="matrix(0.761229, 0.648483, -0.648483, 0.761229, -0.000004, 0.000006)"
+        id="object-8" />
+    <path
+        style="paint-order: fill; stroke: rgba(0, 0, 0, 0); transform-origin: 221.724px 205.58px;"
+        d="M 237.591 199.026 C 237.591 199.026 229.585 213.616 220.803 214.321 C 212.022 215.027 205.076 213.353 206.105 211.382 C 207.134 209.412 219.146 210.755 222.145 210.04 C 222.145 210.04 228.85 208.241 237.591 199.026 Z"
+        transform="matrix(0.91599, 0.401201, -0.401201, 0.91599, -0.000002, 0)" id="object-7" />
+    <path
+        style="paint-order: fill; stroke: rgba(0, 0, 0, 0); transform-origin: 262.23px 176.964px;"
+        d="M 233.32 156.146 C 233.32 156.146 265.784 151.902 277.156 167.243 C 288.528 182.584 293.986 197.637 289.663 198.307 C 285.34 198.977 273.439 174.974 268.806 170.355 C 268.806 170.355 258.126 160.289 233.32 156.146 Z"
+        transform="matrix(0.133012, 0.991114, -0.991114, 0.133012, 0.000001, -0.000003)"
+        id="object-6" />
+    <path
+        style="paint-order: fill; stroke: rgba(0, 0, 0, 0); transform-origin: 286.72px 166.886px;"
+        d="M 272.027 157.702 C 272.027 157.702 288.525 155.83 294.304 162.598 C 300.083 169.365 302.856 176.005 300.659 176.301 C 298.462 176.596 292.415 166.008 290.06 163.97 C 290.06 163.97 284.633 159.53 272.027 157.702 Z"
+        transform="matrix(0.45334, 0.891338, -0.891338, 0.45334, 0.000004, -0.000011)" id="object-5" />
+    <path
+        style="paint-order: fill; stroke: rgba(0, 0, 0, 0); transform-origin: 270.704px 204.083px;"
+        d="M 256.011 194.899 C 256.011 194.899 272.509 193.027 278.288 199.795 C 284.067 206.562 286.84 213.202 284.643 213.498 C 282.446 213.793 276.399 203.205 274.044 201.167 C 274.044 201.167 268.617 196.727 256.011 194.899 Z"
+        transform="matrix(-0.195039, 0.980796, -0.980796, -0.195039, -0.000017, 0.000016)"
+        id="object-4" />
+    <path
+        style="paint-order: fill; stroke: rgba(0, 0, 0, 0); transform-origin: 166.985px 143.673px;"
+        d="M 152.291 134.489 C 152.291 134.489 168.79 132.617 174.569 139.385 C 180.348 146.152 183.121 152.792 180.924 153.088 C 178.727 153.383 172.68 142.795 170.325 140.757 C 170.325 140.757 164.898 136.317 152.291 134.489 Z"
+        transform="matrix(-0.372635, -0.927978, 0.927978, -0.372635, 0.000007, -0.000008)"
+        id="object-3" />
+    <path
+        style="paint-order: fill; stroke: rgba(0, 0, 0, 0); transform-origin: 163.916px 188.593px;"
+        d="M 149.222 179.409 C 149.222 179.409 165.721 177.537 171.5 184.305 C 177.279 191.072 180.052 197.712 177.855 198.008 C 175.658 198.303 169.611 187.715 167.256 185.677 C 167.256 185.677 161.829 181.237 149.222 179.409 Z"
+        transform="matrix(-0.847673, -0.530519, 0.530519, -0.847673, -0.000002, -0.000015)"
+        id="object-2" />
+    <path
+        style="paint-order: fill; stroke: rgba(0, 0, 0, 0); transform-origin: 201.422px 104.074px;"
+        d="M 172.512 83.256 C 172.512 83.256 204.976 79.012 216.348 94.353 C 227.72 109.694 233.178 124.746 228.855 125.416 C 224.532 126.086 212.631 102.084 207.998 97.465 C 207.998 97.465 197.318 87.399 172.512 83.256 Z"
+        transform="matrix(0.462162, -0.886796, 0.886796, 0.462162, 0.000002, 0.000008)"
+        id="object-1" />
+    </g>
+    <path style="stroke: rgba(0, 0, 0, 0);"
+        d="M 223.879 118.234 L 235.72 120.231 C 235.72 120.231 251.978 128.053 256.099 132.479 C 260.22 136.905 265.375 153.74 266.084 158.286 C 266.793 162.832 260.869 173.98 256.882 179.342 C 252.895 184.704 249.184 197.448 240.932 200.742 C 231.029 204.694 200.516 203.288 191.832 194.375 C 183.148 185.462 179.315 185.749 176.478 158.291 C 173.641 130.833 221.576 114.008 223.879 118.234 Z M 206.149 177.716 C 206.149 177.716 206.149 177.716 206.149 177.716 C 206.149 177.716 206.149 177.716 206.149 177.716 Z M 206.149 177.716 C 206.223 177.7 235.558 178.555 235.561 178.556 C 235.559 178.554 226.813 161.139 229.595 160.19 C 238.182 157.26 239.141 134.021 221.506 133.98 C 202.594 133.936 203.813 156.65 211.845 160.813 C 213.067 161.446 206.171 177.665 206.149 177.716 Z M 235.561 178.556 C 235.561 178.556 235.561 178.556 235.561 178.556 C 235.561 178.556 235.561 178.556 235.561 178.556 Z"
+        id="object-0" />
+</svg>

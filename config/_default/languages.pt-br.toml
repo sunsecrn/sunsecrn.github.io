@@ -8,14 +8,14 @@ title = "Sunsec"
   isoCode = "pt-br"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/sunsec-sun.png"
+  logo = "img/sunsec-sun.svg"
   secondaryLogo = "Sunsec"
   # description = "My awesome website"
   copyright = "© 2024 Sunsec. All Rights Reserved"
 
-[author]
+[params.author]
   name = "Sunsec"
-  image = "img/sunsec-sun.png"
+  image = "img/sunsec.png"
   headline = "Potiguar por origem, unindo mentes resolvendo desafios de segurança"
   bio = ""
   links = [
