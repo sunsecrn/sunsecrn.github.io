@@ -24,25 +24,29 @@ Muitos profissionais hoje bem-sucedidos começaram suas jornadas com dedicação
 
 ## Casos de Sucesso
 
-### Matheus Cezar (Analista Sênior na Conviso)
+<img class="w-8. h-8 rounded-full" src="img/members/matheus-cezar.jpeg" alt="Rounded avatar">
 
-	•	Trajetória: Matheus foi voluntário em eventos do capítulo OWASP Natal e mantinha um GitHub bem organizado, documentando seus estudos de segurança para o público. Além disso, ele colaborava ativamente com outras comunidades como Potilivre e DevOpsDays Natal, sempre disposto a ajudar.
-	•	Conexão: Sua contribuição constante e proatividade cativaram as pessoas certas nos eventos da comunidade, conectando-o a uma vaga onde ele já se destacou desde o início.
+### [Matheus Cezar](https://www.linkedin.com/in/matheus-cezar-maciel-ferreira-5192a71bb) (Analista Sênior na [Conviso](https://www.convisoappsec.com/))
 
-### Eduardo Paixão (DevSecOps na Globo)
+- **Trajetória**: Matheus foi voluntário em eventos do capítulo OWASP Natal e mantinha um GitHub bem organizado, documentando seus estudos de segurança para o público. Além disso, ele colaborava ativamente com outras comunidades como Potilivre e DevOpsDays Natal, sempre disposto a ajudar.
+- **Conexão**: Sua contribuição constante e proatividade cativaram as pessoas certas nos eventos da comunidade, conectando-o a uma vaga onde ele já se destacou desde o início.
 
-	•	Trajetória: Eduardo já demonstrava paixão por cibersegurança, liderando iniciativas em projetos locais mesmo sem muitos recursos. Sua dedicação em melhorar a maturidade de segurança desses projetos chamou a atenção.
-	•	Conexão: O apoio da comunidade ajudou Eduardo a expandir seu networking e a se posicionar como um profissional valioso para grandes empresas, o que resultou em sua contratação na maior empresa de mídia da América Latina.
+### [Eduardo Paixão](https://www.linkedin.com/in/darccau) (DevSecOps na [Globo](https://globo.com))
 
-### Kevin (DevSecOps na Globo)
+- **Trajetória**: Eduardo já demonstrava paixão por cibersegurança, liderando iniciativas em projetos locais mesmo sem muitos recursos. Sua dedicação em melhorar a maturidade de segurança desses projetos chamou a atenção.
+- **Conexão**: O apoio da comunidade ajudou Eduardo a expandir seu networking e a se posicionar como um profissional valioso para grandes empresas, o que resultou em sua contratação na maior empresa de mídia da América Latina.
 
-	•	Trajetória: Kevin fez a transição de desenvolvedor para segurança, usando seu profundo conhecimento técnico em desenvolvimento como base para se destacar nos desafios de segurança. Além do networking proporcionado pela Sunsec, Kevin dedicou-se intensamente aos estudos para superar os exigentes testes técnicos da vaga.
-	•	Conexão: A comunidade não apenas ajudou a abrir portas para Kevin em uma vaga com mais de mil candidatos, mas também forneceu suporte para que ele estivesse preparado e confiante.
+### [Kevin Wallacy](https://www.linkedin.com/in/kevinwall--) (DevSecOps na [Globo](https://globo.com))
 
-### Clara Nobre (CloudSec na Conta Simples)
+- **Trajetória**: Kevin fez a transição de desenvolvedor para segurança, usando seu profundo conhecimento técnico em desenvolvimento como base para se destacar nos desafios de segurança. Além do networking proporcionado pela Sunsec, Kevin dedicou-se intensamente aos estudos para superar os exigentes testes técnicos da vaga.
+- **Conexão**: A comunidade não apenas ajudou a abrir portas para Kevin em uma vaga com mais de mil candidatos, mas também forneceu suporte para que ele estivesse preparado e confiante.
 
-	•	Trajetória: Clara é um exemplo de liderança comunitária. Fundadora do PyLadies Brasil, PyLadies Natal, e também parte da Potilivre e DevOpsDays Natal, ela sempre liderou iniciativas que inspiraram outras pessoas e fortaleceram a comunidade de tecnologia. Apesar disso, Clara precisou de apoio para perceber que já estava pronta para assumir grandes desafios no mercado.
-	•	Conexão: A Sunsec desempenhou um papel crucial ao conectá-la a uma vaga estratégica no momento certo, além de oferecer apoio emocional e técnico para que ela desse esse importante passo.
+<img class="w-8. h-8 rounded-full" src="img/members/clara-nobre.jpeg" alt="Rounded avatar">
+
+### [Clara Nobre](https://www.linkedin.com/in/claranobre) (CloudSec na [Conta Simples](https://contasimples.com.br))
+
+- **Trajetória**: Clara é um exemplo de liderança comunitária. Fundadora do PyLadies Brasil, PyLadies Natal, e também parte da Potilivre e DevOpsDays Natal, ela sempre liderou iniciativas que inspiraram outras pessoas e fortaleceram a comunidade de tecnologia. Apesar disso, Clara precisou de apoio para perceber que já estava pronta para assumir grandes desafios no mercado.
+- **Conexão**: A Sunsec desempenhou um papel crucial ao conectá-la a uma vaga estratégica no momento certo, além de oferecer apoio emocional e técnico para que ela desse esse importante passo.
 
 ## Impacto das Histórias
 
