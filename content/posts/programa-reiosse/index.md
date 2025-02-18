@@ -5,7 +5,6 @@ tags: ["emprego", "trabalho", "mentoria"]
 categories:
 - Reiosse
 date: 2024-11-27
-draft: false
 showAuthor: false
 authors:
   - guisso

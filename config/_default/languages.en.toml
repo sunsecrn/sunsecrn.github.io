@@ -8,10 +8,10 @@ title = "Sunsec"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "Sunsec"
+  logo = "img/sunsec-sun.svg"
   # secondaryLogo = "img/background.svg"
   # description = "My awesome website"
-  copyright = "© 2024 Sunsec. All Rights Reserved"
+  copyright = "© 2025 Sunsec. All Rights Reserved"
 
 [author]
   name = "Sunsec"
