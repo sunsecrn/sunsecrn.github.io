@@ -33,3 +33,28 @@ Em umas das Dorks consegui encontrar o phishing apresentado na evidencia abaixo:
 
 ![Demonstração POC](poc.gif) 
 
+---
+Contribua adicionando no repositório com novas Dorks! 🔥
+
+## 🤝 Como Contribuir
+
+1. Faça um **fork** deste repositório.
+2. Adicione suas dorks seguindo o padrão acima.
+3. Envie um **Pull Request** com suas sugestões.
+4. Sinta-se à vontade para sugerir melhorias no README ou na organização do repositório!
+
+---
+
+## ⚠️ Aviso Legal
+
+> Este repositório é destinado **exclusivamente para fins educacionais e de pesquisa em segurança**. Não incentive ou realize atividades ilegais. Sempre reporte sites maliciosos às autoridades e aos provedores de hospedagem.
+
+---
+
+## 💬 Contato
+
+Dúvidas, sugestões ou parcerias? Abra uma issue ou entre em contato!
+
+---
+
+Feito com 💙 para a comunidade de segurança. 
