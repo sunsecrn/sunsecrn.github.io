@@ -20,10 +20,15 @@
   pageRef = "posts"
   weight = 10
 
-# [[main]]
-#   name = "projects"
-#   pageRef = "projects"
-#   weight = 10
+[[main]]
+  name = "Wiki"
+  url = "https://sunsec.net/wiki/"
+  weight = 20
+
+[[main]]
+  name = "Projects"
+  pageRef = "projects"
+  weight = 15
 
 # [[main]]
 #   name = "Tags"
