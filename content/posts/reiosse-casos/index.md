@@ -10,8 +10,6 @@ showAuthor: false
 authors:
   - guisso
 showAuthorsBadges : false
-series: ["Programa Reiosse"]
-series_order: 2
 ---
 
 Sessão de Sucesso: Histórias que Inspiram
@@ -43,10 +41,16 @@ Muitos profissionais hoje bem-sucedidos começaram suas jornadas com dedicação
 
 <img class="w-8. h-8 rounded-full" src="img/members/clara-nobre.jpeg" alt="Rounded avatar">
 
-### [Clara Nobre](https://www.linkedin.com/in/claranobre) (CloudSec na [Conta Simples](https://contasimples.com.br))
+### [Clara Nobre](https://www.linkedin.com/in/claranobre) (CloudSec Sênior no [PicPay](https://picpay.com.br))
 
 - **Trajetória**: Clara é um exemplo de liderança comunitária. Fundadora do PyLadies Brasil, PyLadies Natal, e também parte da Potilivre e DevOpsDays Natal, ela sempre liderou iniciativas que inspiraram outras pessoas e fortaleceram a comunidade de tecnologia. Apesar disso, Clara precisou de apoio para perceber que já estava pronta para assumir grandes desafios no mercado.
 - **Conexão**: A Sunsec desempenhou um papel crucial ao conectá-la a uma vaga estratégica no momento certo, além de oferecer apoio emocional e técnico para que ela desse esse importante passo.
+
+### [Édson Araújo](https://www.linkedin.com/in/edson-araujo-jr/) (AppSec na [Hakai Security](https://hakaisecurity.io))
+
+- **Trajetória**: Antes mesmo de atuar formalmente com segurança, Édson já contribuía de forma excepcional para a comunidade. Vindo da área de desenvolvimento, ele realizava pesquisas avançadas em AppSec, criava ferramentas e produzia conteúdos como palestras e tutoriais. Suas iniciativas incluem projetos amplamente utilizados na comunidade, como [SunCVE](https://sunsec.net/suncve) e SunCodeQL, demonstrando uma combinação rara entre pensamento analítico de segurança e visão prática de desenvolvedor.
+
+- **Conexão**: Seu engajamento constante, energia contagiante e dedicação em ajudar outras pessoas o colocaram naturalmente em destaque dentro do ecossistema de segurança. Essa participação ativa acabou criando as conexões que o levaram à oportunidade na Hakai Security.
 
 ## Impacto das Histórias
 
