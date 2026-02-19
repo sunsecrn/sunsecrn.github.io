@@ -33,7 +33,7 @@ Utilizando também GenAI, criei diversas dorks utilizando palavras-chave de empr
 
 Em umas das Dorks consegui encontrar o phishing apresentado na evidencia abaixo:
 
-![Demonstração POC](poc.gif)
+`![Demonstração POC](poc.gif)`
 
 ---
 
