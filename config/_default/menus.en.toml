@@ -30,6 +30,11 @@
   pageRef = "projects"
   weight = 15
 
+[[main]]
+  name = "Hall of Fame"
+  pageRef = "hall-of-fame"
+  weight = 16
+
 # [[main]]
 #   name = "Tags"
 #   pageRef = "tags"
