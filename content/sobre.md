@@ -33,7 +33,7 @@ Os Potiguaras são o povo indígena tupi do litoral nordestino, sobretudo do Rio
 Na **SunSec**, os **Potiguaras** são os voluntários que apoiam a nossa liderança, responsáveis por assumir papéis importantes para o funcionamento da comunidade e apoiar a nossa missão.  
 
 ### 🌱 Galados  
-"Galado" é uma das gírias mais típicas de Natal. Surgiu na Segunda Guerra Mundial, quando a cidade virou base americana e os soldados saíam em traje de gala, expressão que acabou virando essa palavra bem potiguar.  
+"Galado" é uma das gírias mais típicas de Natal. Surgiu na Segunda Guerra Mundial, quando a cidade virou base americana: os soldados saíam em traje de gala e o povo dizia "lá vem o galado", expressão que acabou virando essa palavra bem potiguar.  
 
 Na **SunSec**, os **Galados** são os demais membros da comunidade, importantes para que possamos expandir e que, no futuro, se tornarão Potiguaras e Cangaceiros para manter a nossa comunidade viva.  
 

@@ -33,7 +33,7 @@ The Potiguaras are the indigenous Tupi people of the Northeast coast, especially
 At **SunSec**, the **Potiguaras** are the volunteers who support our leadership, responsible for taking on important roles for the community's functioning and supporting our mission.  
 
 ### 🌱 Galados  
-"Galado" is one of Natal's most iconic slang words. It emerged during World War II, when the city became a US base and the soldiers went out in gala attire ("traje de gala"), an expression that ended up becoming this very Potiguar word.  
+"Galado" is one of Natal's most iconic slang words. It emerged during World War II, when the city became a US base: the soldiers went out in gala attire ("traje de gala") and locals would say "lá vem o galado" ("here comes the galado"), an expression that ended up becoming this very Potiguar word.  
 
 At **SunSec**, the **Galados** are the rest of the community's members, essential for us to grow and who, in the future, will become Potiguaras and Cangaceiros to keep our community alive.  
 
