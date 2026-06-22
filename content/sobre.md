@@ -22,17 +22,17 @@ Queremos **fortalecer o Nordeste na área de segurança da informação**, capac
 ## **Os Cargos da Comunidade**  
 Nossa estrutura é inspirada na história e na cultura do sertão e do litoral potiguar. Cada cargo carrega o nome de um símbolo da nossa região:  
 
-### 🤠 Cangaceiros  
+### Cangaceiros  
 O cangaço foi o movimento dos grupos armados que percorreram o sertão nordestino entre o fim do século XIX e meados do século XX, tendo Lampião como maior símbolo. O nome vem de *canga*, o jugo de madeira dos bois, pelo peso das armas que carregavam pelo corpo. Ficaram conhecidos pela liderança e organização.  
 
 Na **SunSec**, os **Cangaceiros** são a liderança atual da comunidade, responsáveis por liderar os projetos, gerenciar a comunidade e executar a nossa missão.  
 
-### 🏹 Potiguaras  
+### Potiguaras  
 Os Potiguaras são o povo indígena tupi do litoral nordestino, sobretudo do Rio Grande do Norte. O nome, em tupi, significa "comedores de camarão" e deu origem ao gentílico *potiguar*, de quem nasce no RN.  
 
 Na **SunSec**, os **Potiguaras** são os voluntários que apoiam a nossa liderança, responsáveis por assumir papéis importantes para o funcionamento da comunidade e apoiar a nossa missão.  
 
-### 🌱 Galados  
+### Galados  
 "Galado" é uma das gírias mais típicas de Natal. Surgiu na Segunda Guerra Mundial, quando a cidade virou base americana: os soldados saíam em traje de gala e o povo dizia "lá vem o galado", expressão que acabou virando essa palavra bem potiguar.  
 
 Na **SunSec**, os **Galados** são os demais membros da comunidade, importantes para que possamos expandir e que, no futuro, se tornarão Potiguaras e Cangaceiros para manter a nossa comunidade viva.  

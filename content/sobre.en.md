@@ -22,17 +22,17 @@ We aim to **strengthen the Northeast in the field of information security**, emp
 ## **Community Roles**  
 Our structure is inspired by the history and culture of the *sertão* and the Potiguar coast. Each role carries the name of a symbol from our region:  
 
-### 🤠 Cangaceiros  
+### Cangaceiros  
 The *cangaço* was the movement of armed groups that roamed the Brazilian Northeast backlands from the late 19th to the mid-20th century, with Lampião as its greatest symbol. The name comes from *canga*, the wooden yoke of oxen, after the weight of the weapons they carried across their bodies. They were known for their leadership and organization.  
 
 At **SunSec**, the **Cangaceiros** are the community's current leadership, responsible for leading projects, managing the community, and carrying out our mission.  
 
-### 🏹 Potiguaras  
+### Potiguaras  
 The Potiguaras are the indigenous Tupi people of the Northeast coast, especially in Rio Grande do Norte. Their name in Tupi means "shrimp eaters" and gave rise to the demonym *potiguar*, used by those born in RN.  
 
 At **SunSec**, the **Potiguaras** are the volunteers who support our leadership, responsible for taking on important roles for the community's functioning and supporting our mission.  
 
-### 🌱 Galados  
+### Galados  
 "Galado" is one of Natal's most iconic slang words. It emerged during World War II, when the city became a US base: the soldiers went out in gala attire ("traje de gala") and locals would say "lá vem o galado" ("here comes the galado"), an expression that ended up becoming this very Potiguar word.  
 
 At **SunSec**, the **Galados** are the rest of the community's members, essential for us to grow and who, in the future, will become Potiguaras and Cangaceiros to keep our community alive.  
