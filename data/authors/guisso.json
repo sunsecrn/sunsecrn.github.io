@@ -4,8 +4,8 @@
     "bio": "Compartilhando e aprendendo, hack the planet!",
     "social": [
         { "linkedin": "https://linkedin.com/in/fernandoguisso" },
-        { "instagram": "https://instagram.com/fguisso" },
         { "github": "https://github.com/fguisso" },
-        { "mastodon": "https://bolha.us/@guisso" }
+        { "mastodon": "https://bolha.one/@guisso" },
+        { "link": "https://guisso.dev" }
     ]
 }
