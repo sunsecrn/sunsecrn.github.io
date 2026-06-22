@@ -13,12 +13,13 @@ title = "Sunsec"
   # description = "My awesome website"
   copyright = "© 2025 Sunsec. All Rights Reserved"
 
-[author]
+[params.author]
   name = "Sunsec"
   image = "img/sunsec-sun.png"
   headline = "Potiguar by origin, uniting minds to solve security challenges"
   bio = ""
   links = [
+    { discord = "https://discord.gg/Feh3HxMUd4" },
     { instagram = "https://www.instagram.com/sunsecrn/" },
     { github = "https://github.com/sunsecrn" },
   ]
